@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		72894CB42930058600D2788F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CB32930058600D2788F /* AppDelegate.swift */; };
-		72894CB62930058600D2788F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CB52930058600D2788F /* SceneDelegate.swift */; };
-		72894CB82930058600D2788F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CB72930058600D2788F /* ViewController.swift */; };
-		72894CBB2930058600D2788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72894CB92930058600D2788F /* Main.storyboard */; };
 		72894CBD2930058700D2788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72894CBC2930058700D2788F /* Assets.xcassets */; };
 		72894CC02930058700D2788F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72894CBE2930058700D2788F /* LaunchScreen.storyboard */; };
+		72894CC9293005E300D2788F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CC7293005E300D2788F /* LoginVC.swift */; };
+		72894CCA293005E300D2788F /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72894CC8293005E300D2788F /* LoginVC.xib */; };
+		72894CCC293006B600D2788F /* Ex+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CCB293006B600D2788F /* Ex+UIView.swift */; };
+		72894CCE29300B4D00D2788F /* Ex+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CCD29300B4D00D2788F /* Ex+UIViewController.swift */; };
+		72894CD52930175900D2788F /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 72894CD12930175900D2788F /* loading.json */; };
+		72894CD62930175900D2788F /* pacmanloading.json in Resources */ = {isa = PBXBuildFile; fileRef = 72894CD22930175900D2788F /* pacmanloading.json */; };
+		72894CD72930175900D2788F /* gameloading.json in Resources */ = {isa = PBXBuildFile; fileRef = 72894CD32930175900D2788F /* gameloading.json */; };
+		72894CDB29301A2B00D2788F /* tictactoe.json in Resources */ = {isa = PBXBuildFile; fileRef = 72894CDA29301A2B00D2788F /* tictactoe.json */; };
+		72894CDE29301C5F00D2788F /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CDD29301C5F00D2788F /* UserDefaults.swift */; };
+		72894CE129301DB100D2788F /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72894CDF29301DB100D2788F /* GameVC.swift */; };
+		72894CE229301DB100D2788F /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72894CE029301DB100D2788F /* GameVC.xib */; };
+		B48E4814F4D581D4101E64FF /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AA688556DC7EE7E517B172 /* Pods_TicTacToe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61AA688556DC7EE7E517B172 /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72894CB02930058600D2788F /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72894CB32930058600D2788F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72894CB52930058600D2788F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72894CB72930058600D2788F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72894CBA2930058600D2788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72894CBC2930058700D2788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72894CBF2930058700D2788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72894CC12930058700D2788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72894CC7293005E300D2788F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		72894CC8293005E300D2788F /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		72894CCB293006B600D2788F /* Ex+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIView.swift"; sourceTree = "<group>"; };
+		72894CCD29300B4D00D2788F /* Ex+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIViewController.swift"; sourceTree = "<group>"; };
+		72894CD12930175900D2788F /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
+		72894CD22930175900D2788F /* pacmanloading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pacmanloading.json; sourceTree = "<group>"; };
+		72894CD32930175900D2788F /* gameloading.json */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.json; path = gameloading.json; sourceTree = "<group>"; tabWidth = 4; };
+		72894CDA29301A2B00D2788F /* tictactoe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tictactoe.json; sourceTree = "<group>"; };
+		72894CDD29301C5F00D2788F /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		72894CDF29301DB100D2788F /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		72894CE029301DB100D2788F /* GameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
+		B78EEB6FC18C6836942A40FE /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
+		E785ACA6EB5592D1B472EA3E /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48E4814F4D581D4101E64FF /* Pods_TicTacToe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				72894CB22930058600D2788F /* TicTacToe */,
 				72894CB12930058600D2788F /* Products */,
+				80A4E77EC350DC386548C8CA /* Pods */,
+				D869C564B99E110FE44C0F89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,56 @@
 		72894CB22930058600D2788F /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				72894CDC29301C4E00D2788F /* UserDefaults */,
+				72894CCF2930171000D2788F /* Lottie */,
 				72894CB32930058600D2788F /* AppDelegate.swift */,
-				72894CB52930058600D2788F /* SceneDelegate.swift */,
-				72894CB72930058600D2788F /* ViewController.swift */,
-				72894CB92930058600D2788F /* Main.storyboard */,
 				72894CBC2930058700D2788F /* Assets.xcassets */,
 				72894CBE2930058700D2788F /* LaunchScreen.storyboard */,
 				72894CC12930058700D2788F /* Info.plist */,
+				72894CC7293005E300D2788F /* LoginVC.swift */,
+				72894CC8293005E300D2788F /* LoginVC.xib */,
+				72894CCB293006B600D2788F /* Ex+UIView.swift */,
+				72894CCD29300B4D00D2788F /* Ex+UIViewController.swift */,
+				72894CDF29301DB100D2788F /* GameVC.swift */,
+				72894CE029301DB100D2788F /* GameVC.xib */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		72894CCF2930171000D2788F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				72894CD32930175900D2788F /* gameloading.json */,
+				72894CD12930175900D2788F /* loading.json */,
+				72894CD22930175900D2788F /* pacmanloading.json */,
+				72894CDA29301A2B00D2788F /* tictactoe.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		72894CDC29301C4E00D2788F /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				72894CDD29301C5F00D2788F /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		80A4E77EC350DC386548C8CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E785ACA6EB5592D1B472EA3E /* Pods-TicTacToe.debug.xcconfig */,
+				B78EEB6FC18C6836942A40FE /* Pods-TicTacToe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D869C564B99E110FE44C0F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61AA688556DC7EE7E517B172 /* Pods_TicTacToe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72894CC42930058700D2788F /* Build configuration list for PBXNativeTarget "TicTacToe" */;
 			buildPhases = (
+				B174AE157DDC358767CD39C7 /* [CP] Check Pods Manifest.lock */,
 				72894CAC2930058600D2788F /* Sources */,
 				72894CAD2930058600D2788F /* Frameworks */,
 				72894CAE2930058600D2788F /* Resources */,
+				167620BCF93EC729D8CCAD8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +191,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72894CCA293005E300D2788F /* LoginVC.xib in Resources */,
 				72894CC02930058700D2788F /* LaunchScreen.storyboard in Resources */,
+				72894CD72930175900D2788F /* gameloading.json in Resources */,
+				72894CD62930175900D2788F /* pacmanloading.json in Resources */,
+				72894CDB29301A2B00D2788F /* tictactoe.json in Resources */,
 				72894CBD2930058700D2788F /* Assets.xcassets in Resources */,
-				72894CBB2930058600D2788F /* Main.storyboard in Resources */,
+				72894CE229301DB100D2788F /* GameVC.xib in Resources */,
+				72894CD52930175900D2788F /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167620BCF93EC729D8CCAD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B174AE157DDC358767CD39C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacToe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72894CAC2930058600D2788F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72894CB82930058600D2788F /* ViewController.swift in Sources */,
+				72894CC9293005E300D2788F /* LoginVC.swift in Sources */,
+				72894CDE29301C5F00D2788F /* UserDefaults.swift in Sources */,
+				72894CCE29300B4D00D2788F /* Ex+UIViewController.swift in Sources */,
+				72894CCC293006B600D2788F /* Ex+UIView.swift in Sources */,
+				72894CE129301DB100D2788F /* GameVC.swift in Sources */,
 				72894CB42930058600D2788F /* AppDelegate.swift in Sources */,
-				72894CB62930058600D2788F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72894CB92930058600D2788F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72894CBA2930058600D2788F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72894CBE2930058700D2788F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +390,7 @@
 		};
 		72894CC52930058700D2788F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E785ACA6EB5592D1B472EA3E /* Pods-TicTacToe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +401,10 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +412,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.humbledev.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		72894CC62930058700D2788F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78EEB6FC18C6836942A40FE /* Pods-TicTacToe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +434,10 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +445,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.humbledev.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
